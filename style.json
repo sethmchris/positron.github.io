@@ -402,62 +402,12 @@
         ]
       ],
       "paint": {
-        "line-color": {
-          "stops": [
-            [
-              4,
-              "#ead5d7"
-            ],
-            [
-              5,
-              "#ead5d7"
-            ],
-            [
-              6,
-              "#e1c5c7"
-            ]
-          ]
-        },
-        "line-width": {
-          "stops": [
-            [
-              4,
-              0.5
-            ],
-            [
-              7,
-              1
-            ],
-            [
-              8,
-              1
-            ],
-            [
-              9,
-              1.2
-            ]
-          ]
-        },
-        "line-dasharray": {
-          "stops": [
-            [
-              6,
-              [
-                1
-              ]
-            ],
-            [
-              7,
-              [
-                2,
-                2
-              ]
-            ]
-          ]
-        }
+        "line-color": "#888888",
+        "line-width": 1.5,
+        "line-opacity": 1
       },
       "layout": {
-        "visibility": "none"
+        "visibility": "visible"
       }
     },
     {
@@ -479,7 +429,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "fill-color": "#2a1c4d",
+        "fill-color": "#dde8f0",
         "fill-antialias": true,
         "fill-translate-anchor": "map",
         "fill-opacity": 1
@@ -503,7 +453,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "fill-color": "transparent",
+        "fill-color": "#ccd8e8",
         "fill-antialias": true,
         "fill-translate-anchor": "map",
         "fill-opacity": 1,
@@ -4135,12 +4085,12 @@
       "layout": {
         "line-cap": "round",
         "line-join": "round",
-        "visibility": "none"
+        "visibility": "visible"
       },
       "paint": {
-        "line-color": "#f3efed",
-        "line-opacity": 0.5,
-        "line-width": 8,
+        "line-color": "#555555",
+        "line-opacity": 1,
+        "line-width": 2.0,
         "line-offset": 0
       }
     },
@@ -4166,38 +4116,12 @@
       "layout": {
         "line-cap": "round",
         "line-join": "round",
-        "visibility": "none"
+        "visibility": "visible"
       },
       "paint": {
-        "line-color": {
-          "stops": [
-            [
-              4,
-              "#f2e6e7"
-            ],
-            [
-              5,
-              "#ebd6d8"
-            ],
-            [
-              6,
-              "#ebd6d8"
-            ]
-          ]
-        },
+        "line-color": "#555555",
         "line-opacity": 1,
-        "line-width": {
-          "stops": [
-            [
-              3,
-              1
-            ],
-            [
-              6,
-              1.5
-            ]
-          ]
-        },
+        "line-width": 1.2,
         "line-offset": 0
       }
     },
@@ -4309,7 +4233,8 @@
         "text-pitch-alignment": "auto",
         "text-rotation-alignment": "auto",
         "text-max-width": 6,
-        "text-letter-spacing": 0.1
+        "text-letter-spacing": 0.1,
+        "visibility": "none"
       },
       "paint": {
         "text-color": "#abb6be",
@@ -4391,7 +4316,8 @@
         "text-allow-overlap": false,
         "text-ignore-placement": false,
         "text-pitch-alignment": "auto",
-        "text-rotation-alignment": "auto"
+        "text-rotation-alignment": "auto",
+        "visibility": "none"
       },
       "paint": {
         "text-color": "#7a96a0",
@@ -4465,7 +4391,8 @@
         "symbol-spacing": 350,
         "text-pitch-alignment": "auto",
         "text-rotation-alignment": "auto",
-        "text-line-height": 1.2
+        "text-line-height": 1.2,
+        "visibility": "none"
       },
       "paint": {
         "text-color": "#7a96a0",
@@ -4878,7 +4805,8 @@
             ]
           ]
         },
-        "text-transform": "uppercase"
+        "text-transform": "uppercase",
+        "visibility": "none"
       },
       "paint": {
         "text-color": {
@@ -4970,7 +4898,8 @@
               12
             ]
           ]
-        }
+        },
+        "visibility": "none"
       },
       "paint": {
         "text-color": {
@@ -5072,7 +5001,8 @@
         "text-letter-spacing": 0.1,
         "text-max-width": 9,
         "text-justify": "center",
-        "text-keep-upright": false
+        "text-keep-upright": false,
+        "visibility": "none"
       },
       "paint": {
         "text-color": "#697b89",
