@@ -387,7 +387,7 @@
       "type": "line",
       "source": "carto",
       "source-layer": "boundary",
-      "minzoom": 4,
+      "minzoom": 0,
       "filter": [
         "all",
         [
@@ -402,8 +402,8 @@
         ]
       ],
       "paint": {
-        "line-color": "#888888",
-        "line-width": 1.5,
+        "line-color": "#aaaaaa",
+        "line-width": 1.2,
         "line-opacity": 1
       },
       "layout": {
@@ -453,7 +453,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "fill-color": "#ccd8e8",
+        "fill-color": "#2a1c4d",
         "fill-antialias": true,
         "fill-translate-anchor": "map",
         "fill-opacity": 1,
@@ -4067,7 +4067,7 @@
       "type": "line",
       "source": "carto",
       "source-layer": "boundary",
-      "minzoom": 6,
+      "minzoom": 0,
       "maxzoom": 24,
       "filter": [
         "all",
@@ -4088,9 +4088,9 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "#555555",
-        "line-opacity": 1,
-        "line-width": 2.0,
+        "line-color": "#888888",
+        "line-opacity": 0.6,
+        "line-width": 1.5,
         "line-offset": 0
       }
     },
@@ -4119,8 +4119,8 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "#555555",
-        "line-opacity": 1,
+        "line-color": "#888888",
+        "line-opacity": 0.6,
         "line-width": 1.2,
         "line-offset": 0
       }
