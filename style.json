@@ -694,7 +694,8 @@
           ]
         },
         "text-letter-spacing": 0,
-        "text-keep-upright": true
+        "text-keep-upright": true,
+        "visibility": "none"
       },
       "paint": {
         "text-color": "#7a96a0",
@@ -4257,7 +4258,8 @@
         "text-pitch-alignment": "auto",
         "text-rotation-alignment": "auto",
         "text-max-width": 6,
-        "text-letter-spacing": 0.1
+        "text-letter-spacing": 0.1,
+        "visibility": "none"
       },
       "paint": {
         "text-color": "#abb6be",
